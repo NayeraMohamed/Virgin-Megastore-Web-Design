@@ -1,0 +1,96 @@
+<html>
+<head>
+
+<title> Virgin Megastore|Home </title>
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript">
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slides");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  slides[slideIndex-1].style.display = "block"; 
+}
+
+
+</script>
+
+
+</head>
+
+<body bgcolor="#FFC0CB">
+<div class = "AboveSection">
+            <img id ="Logo" src="Virgin Megastore Logo.jpg"; />
+<div class="right">
+                <button> <i class="fa fa-search"></i></button>
+                <button> <i class="fa fa-map"></i></button>
+                <button> <i class="fa fa-user"></i></button>
+                <button> <i class="fa fa-cart-plus"></i></button>
+</div>
+
+<div class="left">
+
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+
+</div>
+</div>
+
+<div>
+<image src="Summer-Guide-header-ban-desktop.jpg" height="250" />
+
+</div>
+<div id="cont">
+<input id="inline" type= "button" value = "Notebooks" onclick="location.href= 'books.html' " />
+<input id="inline" type= "button" value = "Gifts"/>
+<input id="inline" type= "button" value = "Books"/>
+
+</div>
+
+<div class="slideshowContainer" >
+
+<div class="slides">
+
+<img class="s" src="GIfts-for-Highly-Productive-People.jpg" style="width 100%"/>
+<div class="text"> Gifts for everyone </div>
+
+</div>
+
+<div class="slides">
+
+<img class="s" src="207ed3c48af571381e24a17ae9f21167f832f639.jpg" style="width 100%"/>
+<div class="text"> Come grab your notebook </div>
+
+</div>
+<div class="slides">
+
+<img class="s" src="1e5c633b75b6bb36fb5e9ae23a338ca6.jpg" style="width 100%"/>
+<div class="text"> Enjoy the diversity of books </div>
+
+</div>
+ <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+</body>
+
+</html>
