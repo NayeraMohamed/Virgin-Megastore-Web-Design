@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Gifts </title>
+        <link rel = "stylesheet" href = "Gifts.css">
+        <link rel = "shortcut icon" href = "vm.ico">
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src = "Cart.js"> </script>
+    </head>
+  
+    <body>
+      <!Header>
+        <div class="Header">
+        <img id ="VirginLogo" src="Virgin.png"; />
+        <!User>
+        <button class = "btn" onclick="location.href= 'Login_SignUp.html' "> <i class = "fa fa-user"> </i> </button>
+          <button class = "btn"> <i class = "fa fa-shopping-cart"> </i> </button>
+          <h5 id = "x" class = "userbtn"> 0 </h5>
+        <!Social Media>
+        <div class="rightdiv">
+            <h4>Contact US :</h4>
+            <button class="socialbtn" id="fb"><a href = "https://www.facebook.com/virginmena/" class = "fa fa-facebook"> </a></button>
+            <button class="socialbtn" id="tw"><a href = "https://twitter.com/VirginMENA" class = "fa fa-twitter"> </a></button>
+            <button class="socialbtn" id="insta"><a href = "https://www.instagram.com/virginmegastoreme/" class = "fa fa-instagram"> </a></button>
+        </div>
+    </div>
+        <br> <br> <br>
+      
+      <!Menu Buttons>
+      <div class="menuSection">
+        <button class = "menu cursor" onclick="location.href= 'Home.html' "> <i class = "fa fa-home"> </i> Home </button>
+        <button class = "menu cursor" onclick="location.href= 'books.html' "> <i class = "fa fa-book"> </i> Books </button>
+        <button class = "menu cursor" onclick="location.href= 'Notebooks.html' "> <i class = "fa fa-paste"> </i> Notebooks </button>
+        <button class = "menu cursor" onclick="location.href= 'Gifts.html' "> <i class = "fa fa-gift"> </i> Gifts </button>
+      </div>
+      <br> <br> <br> <br> <br>
+      <h3> Home / Gifts </h3>
+      <h1> 16 Products Found </h1>
+      
+      <!First row of products>
+      <div class = "row">
+        <div class = "column">
+          <img src = "lantern.jpg" alt = "Lantern">
+          <h3 class = "desc"> Solar Lantern </h3>
+          <h3 class = "desc"> EGP 75 <button class = "cart cursor" onclick = "cart()"> Add to Cart <i class = "fa fa-cart-plus"> </i> </button> </h3>
+        </div>
+        <div class = "column">
+          <img src = "sunflower.jpg" alt = "Sunflower">
+          <h3 class = "desc"> Sunflower in a Bag Grow kit </h3>
+          <h3 class = "desc"> EGP 40 <button class = "cart cursor" onclick = "cart()"> Add to Cart <i class = "fa fa-cart-plus"> </i> 
+          </button> </h3>
+        </div>
+        <div class = "column">
+          <img src = "ball.jpg" alt = "Ball">
+          <h3 class = "desc"> Wishing Ball </h3>
+          <h3 class = "desc"> EGP 95 <button class = "cart cursor" onclick = "cart()"> Add to Cart <i class = "fa fa-cart-plus"> </i> </button> </h3>
+        </div>
+        <div class = "column">
+          <img src = "map.jpg" alt = "World map">
+          <h3 class = "desc"> Destination Map </h3>
+          <h3 class = "desc"> EGP 150 <button class = "cart cursor" onclick = "cart()"> Add to Cart <i class = "fa fa-cart-plus"> </i> </button> </h3>
+        </div>
+      </div>
+      <br>
+      <!Second row of products>
+      <div class = "row">
+        <div class = "column">
+          <img src = "shelf.jpg" alt = "Stickers">
+          <h3 class = "desc"> Hang Anywhere Shelf </h3>
+          <h3 class = "desc"> EGP 125 <button class = "cart cursor" onclick = "cart()"> Add to Cart <i class = "fa fa-cart-plus"> </i> </button> </h3>
+        </div>
+        <div class = "column">
+          <img src = "candles.jpg" alt = "Candles">
+          <h3 class = "desc"> Homesick Candles </h3>
+          <h3 class = "desc"> EGP 60 <button class = "cart cursor" onclick = "cart()"> Add to Cart <i class = "fa fa-cart-plus"> </i> </button> </h3>
+        </div>
+        <div class = "column">
+          <img src = "necklace.jpg" alt = "Necklace">
+          <h3 class = "desc"> Flower Necklace </h3>
+          <h3 class = "desc"> EGP 45 <button class = "cart cursor" onclick = "cart()"> Add to Cart <i class = "fa fa-cart-plus"> </i> </button> </h3>
+        </div>
+        <div class = "column">
+          <img src = "book.jpg" alt = "Book">
+          <h3 class = "desc"> What I Love About You by Me Book </h3>
+          <h3 class = "desc"> EGP 50 <button class = "cart cursor" onclick = "cart()"> Add to Cart <i class = "fa fa-cart-plus"> </i> </button> </h3>
+        </div>
+      </div>
+      <!Third row of products>
+      <div class = "row">
+        <div class = "column">
+          <img src = "jar.jpg" alt = "Jar">
+          <h3 class = "desc"> Mason Jar Indoor Herb Garden </h3>
+          <h3 class = "desc"> EGP 75 <button class = "cart cursor" onclick = "cart()"> Add to Cart <i class = "fa fa-cart-plus"> </i> </button> </h3>
+        </div>
+        <div class = "column">
+          <img src = "lamp.jpg" alt = "Lamp">
+          <h3 class = "desc"> Long Distance Friendship Lamp </h3>
+          <h3 class = "desc"> EGP 80 <button class = "cart cursor" onclick = "cart()"> Add to Cart <i class = "fa fa-cart-plus"> </i> </button> </h3>
+        </div>
+        <div class = "column">
+          <img src = "mugs.jpg" alt = "Mugs">
+          <h3 class = "desc"> Personalized Family Mugs </h3>
+          <h3 class = "desc"> EGP 60 <button class = "cart cursor" onclick = "cart()"> Add to Cart <i class = "fa fa-cart-plus"> </i> 
+          </button> </h3>
+        </div>
+        <div class = "column">
+          <img src = "stickers.jpg" alt = "Stickers">
+          <h3 class = "desc"> iPhone Charger Stickers </h3>
+          <h3 class = "desc"> EGP 25 <button class = "cart cursor" onclick = "cart()"> Add to Cart <i class = "fa fa-cart-plus"> </i> </button> </h3>
+        </div>
+      </div>
+      <!Fourth row of products>
+      <div class = "row">
+        <div class = "column">
+          <img src = "socks.jpg" alt = "Socks">
+          <h3 class = "desc"> Taco Socks </h3>
+          <h3 class = "desc"> EGP 40 <button class = "cart cursor" onclick = "cart()"> Add to Cart <i class = "fa fa-cart-plus"> </i> </button> </h3>
+        </div>
+        <div class = "column">
+          <img src = "lampa.jpg" alt = "Lamp">
+          <h3 class = "desc"> City Skyline Lamp </h3>
+          <h3 class = "desc"> EGP 110 <button class = "cart cursor" onclick = "cart()"> Add to Cart <i class = "fa fa-cart-plus"> </i> </button> </h3>
+        </div>
+        <div class = "column">
+          <img src = "birdfeeder.jpg" alt = "Bird Feeder">
+          <h3 class = "desc"> Painted Bird Feeder </h3>
+          <h3 class = "desc"> EGP 140 <button class = "cart cursor" onclick = "cart()"> Add to Cart <i class = "fa fa-cart-plus"> </i> 
+          </button> </h3>
+        </div>
+        <div class = "column">
+          <img src = "duvet.jpg" alt = "Duvet">
+          <h3 class = "desc"> Dinasour Duvet and Pillowcase Set </h3>
+          <h3 class = "desc"> EGP 180 <button class = "cart cursor" onclick = "cart()"> Add to Cart <i class = "fa fa-cart-plus"> </i> </button> </h3>
+        </div>
+      </div>
+      
+    </body>
+</html>
