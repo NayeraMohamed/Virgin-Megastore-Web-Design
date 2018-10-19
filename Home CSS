@@ -1,0 +1,15 @@
+input[type=button]
+{
+width: 33.1%;
+height: 10%;
+background-color: #AFEEEE; color: black;
+padding: 12px 0px 12px 5px; margin: 8px 0;
+text-transform: uppercase;
+text-decoration: none;
+letter-spacing: .15em;
+font-size: 12px;
+font-weight: bold;
+font-size: large;
+border: none;
+border-radius: 4px;
+}
