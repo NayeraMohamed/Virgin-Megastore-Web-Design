@@ -1,0 +1,169 @@
+a
+{
+    text-decoration: none; 
+    color: white;
+}
+.Header
+{
+    width: 100%;
+    height: 68px;
+    background-color: #dd1214;
+    position: absolute;
+    margin: auto;
+    left: 0; 
+    right: 0;
+    top: 2;
+}
+#VirginLogo
+{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    margin: auto;
+    left: 0; 
+    right: 0;
+    top: 2;
+}
+.leftdiv
+{
+    width: 13%;
+    float: left;
+}
+.userbtn
+{
+    width: 1%;
+    position: absolute;
+    margin: auto;
+    left: 5%; 
+    top: 15%;
+    color: white
+}
+.btn
+{
+    background-color: #dd1214;
+    border: none;
+    color: white;
+    padding: 10px 14px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 0;
+    cursor: pointer;
+}
+.rightdiv
+{
+    margin-top: 5px;
+    width:8%;
+    float: right;
+}
+h4
+{
+    position: absolute;
+    margin: auto;
+    top: 20%;
+    right: 9%;
+    font-size: 17px;
+    color: white;
+}
+.socialbtn
+{
+    margin: 0;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.fa-facebook
+{
+    background-color: #3B5998;
+    color: white;
+}
+#fb
+{
+    background-color: #3B5998;
+    color: white;
+}
+.fa-twitter
+{
+    background-color: #1DA1F2;
+    color: white;
+}
+#tw
+{
+    background-color: #1DA1F2;
+    color: white;
+}
+.fa-instagram
+{
+    background-color: #e4405f;
+    color: white;
+}
+#insta
+{
+    background-color: #e4405f;
+    color: white;
+}
+.menuSection
+{
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    top: 15%;
+    left: 0;
+}
+.menu
+{
+  width: 24.8%;
+  height: 45px;
+  background-color: #384074;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: large;
+}
+body 
+{
+  color: #5d5959;
+}
+
+.column
+{
+  float: left;
+  width: 23%;
+  padding: 15px;
+  
+}
+img
+{
+  height: 75%;
+  width: 75%;
+  margin-left: 25px;
+}
+.desc
+{
+  color: #453f3f;
+  margin-left: 25px;
+}
+.cart
+{
+  border: none;
+  border-radius: 2px;
+  background-color: #cc0000;
+  color: white;
+  font-size: 100%;
+  font-weight: 500;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+.cursor
+{
+   cursor: pointer;
+}
+#x
+{
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+}

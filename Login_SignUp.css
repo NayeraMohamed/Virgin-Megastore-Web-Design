@@ -1,0 +1,238 @@
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.Header
+{
+    width: 100%;
+    height: 68px;
+    background-color: #dd1214;
+    position: absolute;
+    margin: auto;
+    left: 0; 
+    right: 0;
+    top: 2;
+}
+#VirginLogo
+{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    margin: auto;
+    left: 0; 
+    right: 0;
+    top: 2;
+}
+.leftdiv
+{
+    width: 13%;
+    float: left;
+}
+.btn
+{
+    background-color: #dd1214;
+    border: none;
+    color: white;
+    padding: 10px 14px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.rightdiv
+{
+    margin-top: 5px;
+    width: 8%;
+    float: right;
+}
+h4
+{
+    position: absolute;
+    margin: auto;
+    top: 15;
+    right: 130;
+    font-size: 17px;
+    color: white;
+}
+.socialbtn
+{
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.fa-facebook
+{
+    background-color: #3B5998;
+    color: white;
+}
+#fb
+{
+    background-color: #3B5998;
+    color: white;
+}
+.fa-twitter
+{
+    background-color: #1DA1F2;
+    color: white;
+}
+#tw
+{
+    background-color: #1DA1F2;
+    color: white;
+}
+.fa-instagram
+{
+    background-color: #e4405f;
+    color: white;
+}
+#insta
+{
+    background-color: #e4405f;
+    color: white;
+}
+.menuSection
+{
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    top: 110;
+    left: 0;
+}
+.menubtn
+{
+    width: 24.8%;
+    height: 40px;
+    font-size: large;
+    border: none;
+    font-weight: bold;
+    background-color: #83173d;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+}
+#pic
+{
+    width: 1530;
+    height: 200;
+    position: absolute;
+    margin: auto;
+    left: 0; 
+    right: 0;
+    top: 170;
+}
+legend
+{
+    text-align: center;
+    font-size: 30;
+}
+#login-form
+{
+    position: absolute;
+    margin: auto;
+    left: 50;
+    right: 0;
+    top: 380;
+    background-color: #f4f4f4;
+    width: 550;
+    height: 300;
+}
+.LoginDiv
+{
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    top: 30;
+    left: 0;
+    right: 0;
+}
+.LoginInfo
+{
+    margin:10px;
+    padding:15px;
+    width: 95%;
+    border:1px solid #CCC
+}
+.Subbtn
+{
+    position: absolute;
+    margin: auto;
+    left: 230;
+    top: 200;
+    padding:10px;
+    border: none;
+    width: 20%;
+    height: 50px;
+    background-color: crimson;
+    color: white;
+}
+#label1
+{
+    position: absolute;
+    margin: auto;
+    left: 260;
+    top: 250;
+  cursor:pointer
+}
+#register-form
+{
+    position: absolute;
+    margin: auto;
+    left: 50;
+    right: 0;
+    top: 380;
+    background-color: #f4f4f4;
+    width: 550;
+    height: 500;
+}
+.RegDiv
+{
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    top: 30;
+    left: 0;
+    right: 0;
+}
+.RegInfo
+{
+    margin:10px;
+    padding:15px;
+    width: 95%;
+    border:1px solid #CCC
+}
+.Regbtn
+{
+    position: absolute;
+    margin: auto;
+    left: 230;
+    top: 400;
+    padding:10px;
+    border: none;
+    width: 20%;
+    height: 50px;
+    background-color: crimson;
+    color: white;
+}
+#label2
+{
+    position: absolute;
+    margin: auto;
+    left: 200;
+    top: 450;
+  cursor:pointer
+}
+
+#form-switch {
+  display:none
+}
+#register-form {
+  display:none
+}
+#form-switch:checked~#register-form {
+  display:block
+}
+#form-switch:checked~#login-form {
+  display:none
+}
